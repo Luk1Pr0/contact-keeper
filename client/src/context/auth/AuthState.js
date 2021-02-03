@@ -21,7 +21,7 @@ const AuthState = (props) => {
 		loading: true,
 		error: null
 	};
-	const [state, dispatch] = useReducer(contactReducer, initialState);
+	const [state, dispatch] = useReducer(authReducer, initialState);
 
 	// Load user
 
